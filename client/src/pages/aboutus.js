@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../components/header";
 import "./aboutus.css";
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; 
-// import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import { Carousel } from 'react-responsive-carousel';
 export default function AboutPage() {
   return (
     <div class="container">
@@ -18,7 +18,7 @@ export default function AboutPage() {
           </p>
         </div>
       </div>
-     {/* <div class="about-team">
+      <div class="about-team">
         <h1>Meet Our Team</h1>
         <br></br>
         <br />
@@ -627,7 +627,7 @@ export default function AboutPage() {
         </div>
         </div>
       </div>
-  */}
+  
     </div>
   );
 }
