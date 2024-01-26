@@ -10,7 +10,6 @@ import AboutPage from './pages/aboutus';
 import TournamentPage from"./pages/tournament";
 import PreLoader from './components/preloader';
 import { useEffect, useState } from 'react';
-import AbPage from './pages/ab';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -26,10 +25,6 @@ const router = createBrowserRouter([
     path:"/tournaments",
     element:<TournamentPage/>
   },
-  {
-    path:"/ab",
-    element:<AbPage/>
-  }
 ]);
 
 
