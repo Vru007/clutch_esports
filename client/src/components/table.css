@@ -1,0 +1,47 @@
+/* styles.css */
+
+/* Adjust table styles */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .responsive-table th,
+  .responsive-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Make the table transparent */
+  .responsive-table {
+    background-color: transparent;
+    color: #fff; /* Change text color as needed */
+  }
+  
+  .responsive-table th,
+  .responsive-table td {
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust transparency here */
+  }
+  
+  /* Style for the table header */
+  .responsive-table th {
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust header transparency here */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .table-container {
+      overflow-x: auto;
+    }
+  }
+  
