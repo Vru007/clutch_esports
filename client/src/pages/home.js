@@ -27,7 +27,7 @@ export default function HomePage(){
         <p>FOLLOW US |</p>
         <FontAwesomeIcon icon="fa-brands fa-discord" ></FontAwesomeIcon>
         <div class="sicons">
-        <a href="https://www.instagram.com/clutch_iiitkota/"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://www.instagram.com/clutch_iiitkota"><ion-icon name="logo-instagram"></ion-icon></a>
         <a href="https://chat.whatsapp.com/GI8iYyrFtMUFm0Ifr5wvMt"><ion-icon name="logo-whatsapp"></ion-icon></a>
         <a href="https://discord.com/invite/Z8mVq7Gq"><ion-icon name="logo-discord"></ion-icon></a>
         <a href="https://www.youtube.com/@Clutch-iiitk"><ion-icon name="logo-youtube"></ion-icon></a>
@@ -260,7 +260,7 @@ export default function HomePage(){
                 </a>
               </li>
               <li>
-              <a href="https://www.instagram.com/absolesports/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="social-link">
+              <a href="https://www.instagram.com/clutch_iiitkota" class="social-link">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
             </li>
